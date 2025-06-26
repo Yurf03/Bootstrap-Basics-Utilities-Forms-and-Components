@@ -24,6 +24,36 @@
             </div>
         </div>
     </Nav>
+
+    <!-- Form Creation and Layout -->
+    <div class="container mt-5 pt-3">
+        <h1 class="text-center text-primary ">Registration</h1>
+        <form class="border p-4 rounded shadow-sm bg-light">
+            <div class="row mb-3">
+                <div class=" col-6 p-2">
+                    <label for="firstname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="Enter your first name" required>
+                </div>
+                <div class="col-6 p-2">
+                    <label for="lastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Enter your last name" required>
+                </div>
+            </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-check mb-3">
+                    <label for="checkbox" class="form-check-label">Agree to terms</label>
+                    <input type="checkbox" class="form-check-input" id="checkbox" required>
+                </div>
+            <button type="sumbit" class="btn btn-success w-100">Submit</button>
+        </form>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
